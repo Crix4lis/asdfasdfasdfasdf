@@ -1,0 +1,11 @@
+{
+  "name": "foo/battleships",
+  "require": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Foo\\": "src/"
+    }
+  }
+}

@@ -15,7 +15,7 @@ abstract class Characters
         foreach ($letters as $letter) {
             self::assertIsCharacter($letter);
 
-            $toLower = strtolower($letter);
+            $toLower[] = strtolower($letter);
         }
 
         $this->characters = $toLower;
